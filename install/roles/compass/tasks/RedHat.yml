@@ -82,7 +82,7 @@
   pip: name=virtualenv extra_args='-i http://pypi.douban.com/simple/'
 
 - name: cloning compass-core
-  git: repo=http://git.openstack.org/stackforge/compass-core.git
+  git: repo=https://github.com/Justin-chi/compass-core
        dest={{ COMPASS_PATH }}
        version=dev/experimental
        force=yes
